@@ -387,7 +387,7 @@ function print_banner() {
     printf "${red}##  88     '88.   d8'        '8b  88        88  ##\n"
     printf "${red}##  88       Y8b d8'          '8b 888888888 88  ##\n"
     printf "${red}##                                              ##\n"
-    printf "${red}####  ############# NetHunter ####################${reset}\n\n"
+    printf "${red}############### Jane's Edition ###################${reset}\n\n"
 }
 
 
