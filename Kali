@@ -376,18 +376,18 @@ function fix_uid() {
 
 function print_banner() {
     clear
-    printf "${blue}##################################################\n"
-    printf "${blue}##                                              ##\n"
-    printf "${blue}##  88      a8P         db        88        88  ##\n"
-    printf "${blue}##  88    .88'         d88b       88        88  ##\n"
-    printf "${blue}##  88   88'          d8''8b      88        88  ##\n"
-    printf "${blue}##  88 d88           d8'  '8b     88        88  ##\n"
-    printf "${blue}##  8888'88.        d8YaaaaY8b    88        88  ##\n"
-    printf "${blue}##  88P   Y8b      d8''''''''8b   88        88  ##\n"
-    printf "${blue}##  88     '88.   d8'        '8b  88        88  ##\n"
-    printf "${blue}##  88       Y8b d8'          '8b 888888888 88  ##\n"
-    printf "${blue}##                                              ##\n"
-    printf "${blue}####  ############# NetHunter ####################${reset}\n\n"
+    printf "${pink}##################################################\n"
+    printf "${pink}##                                              ##\n"
+    printf "${pink}##  88      a8P         db        88        88  ##\n"
+    printf "${pink}##  88    .88'         d88b       88        88  ##\n"
+    printf "${pink}##  88   88'          d8''8b      88        88  ##\n"
+    printf "${pink}##  88 d88           d8'  '8b     88        88  ##\n"
+    printf "${pink}##  8888'88.        d8YaaaaY8b    88        88  ##\n"
+    printf "${pink}##  88P   Y8b      d8''''''''8b   88        88  ##\n"
+    printf "${pink}##  88     '88.   d8'        '8b  88        88  ##\n"
+    printf "${pink}##  88       Y8b d8'          '8b 888888888 88  ##\n"
+    printf "${pink}##                                              ##\n"
+    printf "${pink}####  ############# NetHunter ####################${reset}\n\n"
 }
 
 
@@ -423,7 +423,7 @@ extract_rootfs
 create_launcher
 cleanup
 
-printf "\n${blue}[*] Configuring NetHunter for Termux ...\n"
+printf "\n${pink}[*] Configuring NetHunter for Termux ...\n"
 fix_profile_bash
 fix_sudo
 create_kex_launcher
