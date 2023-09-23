@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash -e
 
 VERSION=20190228
-BASE_URL=https://kali.download/nethunter-images/kali-2021.3/rootfs/
+BASE_URL=https://kali.download/nethunter-images/kali-2023.3/rootfs/
 USERNAME=kali
 
 
