@@ -376,18 +376,18 @@ function fix_uid() {
 
 function print_banner() {
     clear
-    printf "${purple}##################################################\n"
-    printf "${purple}##                                              ##\n"
-    printf "${purple}##  88      a8P         db        88        88  ##\n"
-    printf "${purple}##  88    .88'         d88b       88        88  ##\n"
-    printf "${purple}##  88   88'          d8''8b      88        88  ##\n"
-    printf "${purple}##  88 d88           d8'  '8b     88        88  ##\n"
-    printf "${purple}##  8888'88.        d8YaaaaY8b    88        88  ##\n"
-    printf "${purple}##  88P   Y8b      d8''''''''8b   88        88  ##\n"
-    printf "${purple}##  88     '88.   d8'        '8b  88        88  ##\n"
-    printf "${purple}##  88       Y8b d8'          '8b 888888888 88  ##\n"
-    printf "${purple}##                                              ##\n"
-    printf "${purple}########### The Janeasaurus Version ##############${reset}\n\n"
+    printf "${light_cyan}##################################################\n"
+    printf "${light_cyan}##                                              ##\n"
+    printf "${light_cyan}##  88      a8P         db        88        88  ##\n"
+    printf "${light_cyan}##  88    .88'         d88b       88        88  ##\n"
+    printf "${light_cyan}##  88   88'          d8''8b      88        88  ##\n"
+    printf "${light_cyan}##  88 d88           d8'  '8b     88        88  ##\n"
+    printf "${light_cyan}##  8888'88.        d8YaaaaY8b    88        88  ##\n"
+    printf "${light_cyan}##  88P   Y8b      d8''''''''8b   88        88  ##\n"
+    printf "${light_cyan}##  88     '88.   d8'        '8b  88        88  ##\n"
+    printf "${light_cyan}##  88       Y8b d8'          '8b 888888888 88  ##\n"
+    printf "${light_cyan}##                                              ##\n"
+    printf "${light_cyan}########### The Janeasaurus Version ##############${reset}\n\n"
 }
 
 
