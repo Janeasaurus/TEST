@@ -376,18 +376,18 @@ function fix_uid() {
 
 function print_banner() {
     clear
-    printf "${red}##################################################\n"
-    printf "${red}##                                              ##\n"
-    printf "${red}##  88      a8P         db        88        88  ##\n"
-    printf "${red}##  88    .88'         d88b       88        88  ##\n"
-    printf "${red}##  88   88'          d8''8b      88        88  ##\n"
-    printf "${red}##  88 d88           d8'  '8b     88        88  ##\n"
-    printf "${red}##  8888'88.        d8YaaaaY8b    88        88  ##\n"
-    printf "${red}##  88P   Y8b      d8''''''''8b   88        88  ##\n"
-    printf "${red}##  88     '88.   d8'        '8b  88        88  ##\n"
-    printf "${red}##  88       Y8b d8'          '8b 888888888 88  ##\n"
-    printf "${red}##                                              ##\n"
-    printf "${red}############### Jane's Edition ###################${reset}\n\n"
+    printf "${purple}##################################################\n"
+    printf "${purple}##                                              ##\n"
+    printf "${purple}##  88      a8P         db        88        88  ##\n"
+    printf "${purple}##  88    .88'         d88b       88        88  ##\n"
+    printf "${purple}##  88   88'          d8''8b      88        88  ##\n"
+    printf "${purple}##  88 d88           d8'  '8b     88        88  ##\n"
+    printf "${purple}##  8888'88.        d8YaaaaY8b    88        88  ##\n"
+    printf "${purple}##  88P   Y8b      d8''''''''8b   88        88  ##\n"
+    printf "${purple}##  88     '88.   d8'        '8b  88        88  ##\n"
+    printf "${purple}##  88       Y8b d8'          '8b 888888888 88  ##\n"
+    printf "${purple}##                                              ##\n"
+    printf "${purple}########### Jane's Version ####################${reset}\n\n"
 }
 
 
@@ -395,6 +395,7 @@ function print_banner() {
 ##              Main            ##
 
 # Add some colours
+Purple='\[\033[0;35m\]'
 red='\033[1;31m'
 green='\033[1;32m'
 yellow='\033[1;33m'
